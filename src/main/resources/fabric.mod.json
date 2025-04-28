@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "unlimitedvillagertrades",
+  "version": "1.0.0",
+  "name": "Unlimited Villager Trades",
+  "description": "Removes daily villager trading limits.",
+  "authors": [
+    "YourNameHere"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.unlimitedvillagertrades.UnlimitedVillagerTrades"
+    ]
+  },
+  "mixins": [
+    "unlimitedvillagertrades.mixins.json"
+  ],
+  "depends": {
+    "fabric loader": ">=0.15.0",
+    "minecraft": "1.21.4",
+    "fabric": "*"
+  }
+}

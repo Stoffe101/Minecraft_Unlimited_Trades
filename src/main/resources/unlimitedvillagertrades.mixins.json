@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.example.unlimitedvillagertrades.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "TradeOfferMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
