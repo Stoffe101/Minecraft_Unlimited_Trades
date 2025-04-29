@@ -13,14 +13,21 @@
   "entrypoints": {
     "main": [
       "com.example.unlimitedvillagertrades.UnlimitedVillagerTrades"
+    ],
+    "client": [
+      "com.example.unlimitedvillagertrades.client.UnlimitedVillagerTradesClient"
+    ],
+    "fabric-datagen": [
+      "com.example.unlimitedvillagertrades.client.UnlimitedVillagerTradesDataGenerator"
     ]
   },
   "mixins": [
     "unlimitedvillagertrades.mixins.json"
   ],
   "depends": {
-    "fabric loader": ">=0.15.0",
+    "fabricloader": ">=0.16.3",
     "minecraft": "1.21.4",
-    "fabric": "*"
+    "fabric-api": "*",
+    "java": ">=21"
   }
 }

@@ -18,8 +18,9 @@ A simple Minecraft Fabric mod for version 1.21.4 that makes villager trades have
 ## Requirements
 
 - Minecraft 1.21.4
-- Fabric Loader 0.15.7+
-- Fabric API 0.96.12+
+- Fabric Loader 0.16.3+
+- Fabric API 0.119.2+
+- Java 21
 
 ## License
 
