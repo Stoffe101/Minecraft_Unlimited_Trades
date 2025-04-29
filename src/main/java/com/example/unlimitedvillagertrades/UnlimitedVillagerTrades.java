@@ -11,6 +11,8 @@ public class UnlimitedVillagerTrades implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Unlimited Villager Trades initialized! All villager trades will now have unlimited uses.");
+        LOGGER.info("Unlimited Villager Trades mod initialized!");
+        LOGGER.info("All villager trades will now have unlimited uses thanks to mixins.");
+        LOGGER.info("No more restocking needed - trade as much as you want!");
     }
 }
